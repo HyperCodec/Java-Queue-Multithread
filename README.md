@@ -24,7 +24,7 @@ public class ExampleTask extends Task {
 ```
 </details>
 
-#### Extending During Instantiation
+#### Extending Via Instantiation
 If you don't need an entire class for it, you can just do it like this: 
 
 <details>
