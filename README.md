@@ -73,7 +73,7 @@ You can extend the class by doing this:
 ```java
 public class ExampleTask extends Task {
     @Override
-    public void start() {
+    protected void start() {
         // code here   
     }
 }
@@ -89,7 +89,7 @@ If you don't need an entire class for it, you can just do it like this:
 ```java
 Task task = new Task() {
     @Override
-    public void start() {
+    protected void start() {
         // code here
     }
 };
