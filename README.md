@@ -122,7 +122,7 @@ for(int i = 0; i < 1000; i++) {
    int finalI = i;
    tasks.add(new Task() {
       @Override
-      public void start() {
+      protected void start() {
          for(int i2 = 0; i2 < 100; i2++) {
             System.out.printf("%s from task %s in thread %s%n", i2, finalI, this.parent.getName());
          }
