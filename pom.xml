@@ -15,12 +15,22 @@
         </developer>
     </developers>
 
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <github.global.server>github</github.global.server>
+    </properties>
+
     <distributionManagement>
         <repository>
             <id>internal.repo</id>
             <name>Temporary Staging Repository</name>
             <url>file://${project.build.directory}/mvn-repo</url>
         </repository>
+        <site>
+            <id>github-site</id>
+            <url>http://hypercodec.github.io/java-queue-multithread/${project.version}</url>
+        </site>
     </distributionManagement>
 
     <build>
@@ -66,11 +76,4 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
-
-    <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-        <github.global.server>github</github.global.server>
-    </properties>
-
 </project>
