@@ -1,6 +1,35 @@
 # Java Queue-Based Multithreading API
  A simple queue-based multithreading api that can be used to 
- 
+
+## Importing
+### Maven
+<details>
+<summary>Repository</summary>
+
+```xml
+<repository>
+    <id>Java-Queue-Multithread-mvn-repo</id>
+    <url>https://github.com/HyperCodec/Java-Queue-Multithread/raw/mvn-repo/</url>
+    <snapshots>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+    </snapshots>
+</repository>
+```
+</details>
+
+<details>
+<summary>Dependency</summary>
+
+```xml
+<dependency>
+    <groupId>me.hypercodec</groupId>
+    <artifactId>java-queue-multithread</artifactId>
+    <version>1.0-SNAPSHOT</version> <!-- replace with latest release version (Intellij should prompt you) -->
+</dependency>
+```
+</details>
+
 ## How to Use
 
 ### Initialization
