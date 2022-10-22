@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>me.hypercodec</groupId>
+  <artifactId>Java-Queue-Multithread</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20221022001718</lastUpdated>
+  </versioning>
+</metadata>
