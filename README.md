@@ -119,15 +119,16 @@ ThreadManager.startTask(task);
 List<Task> tasks = new ArrayList<>();
 
 for(int i = 0; i < 1000; i++) {
-    tasks.add(new Task() {
-        @Override
-        public void start() {
-            for(int i2 = 0; i2 < 100; i2++) {
-                System.out.println(String.format("%s from task %s in thread %s", i2, i, this.parent.getName()));
-            }
-        }
-    });
-}
+   int finalI = i;
+   tasks.add(new Task() {
+      @Override
+      public void start() {
+         for(int i2 = 0; i2 < 100; i2++) {
+            System.out.printf("%s from task %s in thread %s%n", i2, finalI, this.parent.getName());
+         }
+      }
+   });
+ }
 
 ThreadManager.startTasks(tasks);
 ```
