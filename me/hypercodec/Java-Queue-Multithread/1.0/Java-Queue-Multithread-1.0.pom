@@ -23,14 +23,10 @@
 
     <distributionManagement>
         <repository>
-            <id>internal.repo</id>
-            <name>Temporary Staging Repository</name>
-            <url>file://${project.build.directory}/mvn-repo</url>
+            <id>github</id>
+            <name>GitHub HyperCodec Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/HyperCodec/Java-Queue-Multithread</url>
         </repository>
-        <site>
-            <id>github-site</id>
-            <url>http://hypercodec.github.io/java-queue-multithread/${project.version}</url>
-        </site>
     </distributionManagement>
 
     <build>
