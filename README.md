@@ -25,8 +25,35 @@
 <dependency>
     <groupId>me.hypercodec</groupId>
     <artifactId>java-queue-multithread</artifactId>
-    <version>1.0-SNAPSHOT</version> <!-- replace with latest release version (Intellij should prompt you) -->
+    <version>1.0</version> <!-- replace with latest release version (Intellij should prompt you) -->
 </dependency>
+```
+</details>
+
+### Gradle
+<details>
+<summary>Repository</summary>
+
+```gradle
+repositories: {
+   maven {
+      url "https://github.com/HyperCodec/Java-Queue-Multithread/raw/mvn-repo/"
+   }
+   
+   // ...
+}
+```
+</details>
+
+<details>
+<summary>Dependency</summary>
+
+```gradle
+dependencies: {
+   implementation("me.hypercodec:java-queue-multithread:1.0") // replace with latest release version (Intellij should prompt you)
+   
+   // ...
+}
 ```
 </details>
 
