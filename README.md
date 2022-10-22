@@ -8,7 +8,7 @@
 
 ```xml
 <repository>
-    <id>Java-Queue-Multithread-mvn-repo</id>
+    <id>Java-Queue-Multithread-repo</id>
     <url>https://github.com/HyperCodec/Java-Queue-Multithread/raw/mvn-repo/</url>
     <snapshots>
         <enabled>true</enabled>
